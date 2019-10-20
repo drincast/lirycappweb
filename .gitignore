@@ -30,11 +30,16 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
+/build
 build/Release
 
 # Dependency directories
 node_modules/
 jspm_packages/
+
+# react.js
+/.pnp
+.pnp.js
 
 # TypeScript v1 declaration files
 typings/
@@ -59,3 +64,14 @@ typings/
 
 # next.js build output
 .next
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
